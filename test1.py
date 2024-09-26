@@ -5,7 +5,7 @@ import time  # 用來暫停程式
 from urllib.parse import quote_plus  # 如果 message 包含特殊字符（如空格、符號等），需要使用 urllib.parse.quote_plus()
 
 # 要爬的股票
-stock = ["1101", "2330"]
+stock = ["1101", "2330","1102"]
 
 for i in range(len(stock)):  # 迴圈依序爬股價
     
